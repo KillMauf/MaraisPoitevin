@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="Les Marais Poitevin" charset="UTF-8">
+    <title>Les Marais Poitevin</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  </head>
+  <body>
+    <header>
+      <h1>Les Marais Poitevin</h1>
+      <h2>Parc naturel situé à cheval entre la Vendée, les Deux-Sèvres et la Charente-Maritime</h2>
+    </header>
+
+    <section id="contenu">
+      <h3>Les Paysages</h3>
+      <p id="paysages">
+        Le marais Poitevin est un parc riche en paysages variés. Cette mosaïque de panorama, est principalement
+        composé de 4 types de point de vue : le littoral, les marais mouillés, les marais desséchés et les bordures de marais.
+        Son littoral (s'étalant sur 9700 ha) est soumis à l’influence des marées, il est donc composé de vasières, de dunes et de sables.
+        De leurs côtés, les marais mouillés (32 200 ha) correspondent aux lits majeurs inondables (de la Vendée, de la Sèvre niortaise, du Lay...),
+        ainsi qu'au réseau dense des conches, fossés et rigoles. Au sein de ces marais, il y a différents types de paysages : les marais
+        mouillés bocager, les terrées, les tourbières ou même encore les trous de bri. À l'inverse, les marais desséchés (46 800 ha)
+        sont de larges étendues de verdure parsemées d’anciens marais salants. Ils présentent de larges paysages ouverts où les arbres sont rares,
+        seuls quelques buissons de tamaris et d’épineux bordent les fossés et les canaux qui entourent prairies et cultures. Quant à elles, les bordures
+        de marais sont composés de larges paysages ouverts où les cultures sont très présentes. Lorsque l'on s'en éloigne, les bocages ainsi que
+        les forêts commencent à apparaître.
+      </p>
+
+      <h3>La Faune</h3>
+      <p id="faune">
+        De par son large panel de paysages, le marais Poitevin constitue un lieu idéal afin d'accueillir une faune variée. Nous pouvons recenser :
+        <br>- Une cinquantaine d’espèces de mammifères aquatiques et terrestres, dont la loutre d’Europe et les chauves-souris.
+        <br>- 337 espèces d’oiseaux se partageant la zone humide et la plaine de bordure selon la reproduction et la migration.
+        <br>- 34 espèces de poissons qui cohabitent dans les eaux du marais. Certains migrent entre les eaux salées de l’Atlantique et les eaux douces. D’autres affectionnent les eaux calmes des canaux.
+        <br>- De nombreux insectes dont les plus connus sont les libellules (53 espèces) et les papillons (63 espèces).
+      </p>
+
+      <h3>La Flore</h3>
+      <p id="flore">
+        Les différentes caractéristiques du marais (la salinité, les niveaux d’eau...), conditionnent une diversité floristique. Nous pouvons recenser :
+        <br>- Plantes envahissantes (Myriophylle du Brésil, Baccharis, Jussie...)
+        <br>- Plantes des rives (Aulne glutineux, Reine des prés, Roseau phragmite...)
+        <br>- Plantes aquatiques (Renoncule aquatique, Populage des marais, Hydrocharis des grenouilles...)
+        <br>- Plantes des prairies (Fritillaire pintade, Orchis à feuilles lâches, Renoncule à feuilles d’Ophioglosse...)
+        <br>- Plantes du littoral (Obione faux-pourpier, Spartine maritime, Aster maritime...)
+      </p>
+
+      <p id="lien">
+        Pour plus d'informations, voici un lien vers le site des <a href="https://pnr.parc-marais-poitevin.fr/" title="Site Marais Poitevin">Marais Poitevin</a>
+      </p>
+    </section>
+
+    <section id="galerie">
+      <h3 id="titrephoto">Galerie Photos</h3>
+      <div id="case1">
+        <img src="https://www.objectifsejours.com/sites/default/files/styles/800_x_600/public/2020-05/maillezais%20%281%29.jpg?itok=A1Qk97fv" alt="TexteAlternatif" class="picture" id="picture1">
+      </div>
+      <div id="case2">
+        <img src="https://img-4.linternaute.com/SSYsqhhd51stIw0OvMrq0Q1Vjdc=/660x366/smart/c0415338aeb3425889123a4ba9805d28/ccmcms-linternaute/16169663.jpg" alt="TexteAlternatif" class="picture" id="picture2">
+      </div>
+      <div id="case3">
+      <img src="https://www.vendee-tourisme.com/sites/www.vendee-tourisme.com/files/styles/incontournables_entete/public/thumbnails/image/ballademaraispoitevin_1920x620.jpg?itok=BhCF0ugd" alt="TexteAlternatif" class="picture" id="picture3">
+    </div>
+    <div id="case4">
+      <img src="https://t3.ftcdn.net/jpg/02/91/47/56/360_F_291475693_UikFabkx3H8zuGHgK85Fe2RXh9VOD0cY.jpg" alt="TexteAlternatif" class="picture" id="picture4">
+    </div>
+    <div id="case5">
+      <img src="https://www.vendeecamping.com/wp-content/uploads/2018/09/ragondin-DSC_6110.jpg" alt="TexteAlternatif" class="picture" id="picture5">
+    </div>
+    <div id="case6">
+      <img src="https://montgolfiere-sensation.com/app/uploads/2019/06/IMG_20190522_194323.jpg" alt="TexteAlternatif" class="picture" id="picture6">
+    </div>
+    <div id="case7">
+      <img src="http://www.voyagez-malin.net/wp-content/uploads/2018/03/Marais-Poitevin-bords-de-s%C3%A8vre-1920x500-1920x500.jpg" alt="TexteAlternatif" class="picture" id="picture7">
+    </div>
+    </section>
+
+    <section id="position">
+      <h3 id="titreposition">Situation Géographique</h3>
+      <h4 id="titreville">Distance par rapport à :</h4>
+      <h4 id="titrecarte">Emplacement sur la carte :</h4>
+      <p id="Paris" class="lieu">- Paris --> 360km</p>
+      <p id="Marseille" class="lieu">- Marseille --> 580km</p>
+      <p id="Lyon" class="lieu">- Lyon --> 425km</p>
+      <p id="Toulouse" class="lieu">- Toulouse --> 340km</p>
+      <div id="map"></div>
+    </section>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="carte.js"></script>
+    <footer>
+      <p id="pied">Site web réalisé par Mauferon Killian dans le cadre d'un TP</p>
+    </footer>
+  </body>
+</html>
